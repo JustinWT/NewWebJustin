@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/justin.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title></title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="container">
+           <div class="page-header">
+               <h1>JWT'S Site</h1>
+                    <div class="header1">
+                        <small>A proud alum of THE Florida State University</small>
+                    </div>
+               <div class="headerImage">
+                   <img src="img/fsuSpear.jpe" width="800" height="100">
+               </div>
+
+           </div>
+                 <div>
+                     <ul class="nav nav-tabs">
+                         <li id="sportsBtn" role="presentation" class="active"><a href="#">Sports</a></li>
+                         <li id="newsBtn" role="presentation"><a href="#">News</a></li>
+                         <li role="presentation"><a href="#">Music</a></li>
+                         <li role="presentation"><a href="#">Work</a></li>
+                         <li role="presentation"><a href="#">Travel</a></li>
+                         <li role="presentation"><a href="#">Brewery/Restaurant</a></li>
+                         <li role="presentation"><a href="#">All photos</a></li>
+                         <li role="presentation"><a href="#">Music</a></li>
+                     </ul>
+                 </div>
+    </div>
+</header>
+
+<!---Menu---------
+<div class="sectionTitle">Menu
+    <nav class="menuList">
+        <ul>
+            <li><a href="#news">Current Events</a></li>
+            <li><a href="#work">Work and Schedule</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#travel">Travel</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="./photos.html" target="blank">All Photos</a></li>
+            <li><a href="./music.html" target="blank">Play Music</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#breweryInfo">Brewery Restaurant Info</a></li>
+        </ul>
+    </nav>
+</div>
+->
+<!------About------->
+<div class="container">
+        <div class="about">
+             <h2 id="interests" class="sectionTitle">About Me</h2>
+        <div class="aboutText">
+                  <p> I grew up in the United States of America.  I was born in Florida and lived in many different cities in Florida.  I spent my middle school years in Philadelphia, Pennsylvania and then went to High School in Atlanta, Georgia. After high school I returned to Florida to attend Florida State University.  I studied Criminology, Politcal Science, and History.  Then I attended Law School at Florida State University.  I worked as a lobbyist and then in the legal department of Coca-Cola in Atlanta, Georgia.  I moved to Barcelona, Spain to change my life style and get out of corporate America.My entire life I have played all American team sports and love outdoor sports as well.  Now that I am out of the corporate world I have time every month to do the following activities:</p>
+        </div>
+            <div class="activitiesList">
+                <ul>
+                    <li>Trekking</li>
+                    <li>Mountain Biking</li>
+                    <li>Surfing</li>
+                    <li>Skiing/Snowboarding</li>
+                    <li>Swimming</li>
+                    <li>Climbing</li>
+                </ul>
+            </div>
+
+            <div class="photoLink">
+                <p>Link to photos of activities</p>
+                <a href="./photos.html">All Photos</a>
+            </div>
+        </div>
+</div>
+<!--------News Container------>
+
+        <div class="container">
+
+            <div  id="newsContainer" style="display:none" class="news">
+                 <div class="sectionNews">
+                    <h3 id="currentEvents" class="sectionTitle">News</h3>
+            <div class="newsText1">
+                 <p>We live in a society in which the media can not be trusted, I believe you must take all points of view into consideration and make an impartial informed opinion of each issue</p>
+            </div>
+                <div class="boldNews">Some of my favorite sites for news and entertainment
+            </div>
+
+            <div class="newsLinks">
+                <a href="http://www.bbc.com"> BBC News</a>
+                <a href="http://huffingtonpost.com"> HuffPost</a>
+                <a href="http://www.cnn.com">CNN</a>
+                <a href="http://www.thelocal.es">The Local</a>
+                 <a href="http://www.businessinsider.com">Business Insider</a>
+                 <a href="http://www.newyorktimes.com">NYT</a>
+                 <a href="http://barcelona.lecool.com/">Le Cool</a>
+            </div>
+
+            <div class="newsText1">
+                <blockquote class="block" cite="http://www.goodreads.com/quotes/tag/media">
+                <em>“Because today we live in a society in which spurious realities are manufactured by the media, by governments, by big corporations, by religious groups, political groups... So I ask, in my writing, What is real? Because unceasingly we are bombarded with pseudo-realities manufactured by very sophisticated people using very sophisticated electronic mechanisms. I do not distrust their motives; I distrust their power. They have a lot of it. And it is an astonishing power: that of creating whole universes, universes of the mind. I ought to know. I do the same thing.” </em>
+                 </blockquote>
+            </div>
+                 <div class="newsText2">
+                     <p>Write something about todays news/Comments about current events</p>
+                </div>
+
+
+            <form action="#" method="#">
+                <textarea name="comentario" max length="1000"></textarea>
+                <br>
+                <input type="submit" name="enviar" value="enviar">
+            </form>
+            </div>
+                 </div>
+<!--Sport container-->
+        <div class="container" id="sportsContainer" style="display:none">
+            <div id="mypanel1" class="sports">
+                <h4 id="sectionSports" class="sectionTitle">Sports</h4>
+                    <div class="sectionSports">
+                        <h5 id="sports" class="sectionSports"></h5>
+                     </div>
+                          <div class="sportsIntro"> The hardest part of living in Europe is following my favorite American sports teams, let's take a look at my favorite sports</div>
+
+                            <div class="sportsLogos">
+                    <div>
+                        <img src="img/cubsLogo.jpg" height="190" width="150">
+                        <figcaption><a href="http://chicago.cubs.mlb.com/index.jsp?c_id=chc">CUBS</a></figcaption>
+                    </div>
+                    <div>
+                        <img src="img/bucslogo.png" height="190" width="150">
+                        <figcaption><a href="http://www.buccaneers.com/">BUCS</a></figcaption>
+                    </div>
+                    <div>
+                        <img src="img/barca.jpeg" height="190" width="150">
+                        <figcaption><a href="http://www.fcbarcelona.es/">BARCA</a></figcaption>
+                    </div>
+                    <div>
+                        <img src="img/seminole.jpg" height="190" width="150">
+                        <figcaption><a href="http://www.seminoles.com/SportSelect.dbml?SPID=157113">FSU</a></figcaption>
+                    </div>
+                </div>
+
+            <div class="sportsLinks">
+                    <p>The only site you need for <mark>ALL</mark> of your sports news</p>
+                    <a href="http://www.espn.com">ESPN</a>
+            </div>
+
+                    <p>WRITE ABOUT CUBS STRUGGLES or successes in 2016, BUCS STRUGGLES, FSU SUCCESS, The good the bad and the ugly</p>
+
+             <div class="sportsNews">
+                        <p>Newest Sports Clips</P>
+                            <a href="http://espn.go.com/blog/chicago/cubs/post/_/id/36326/what-could-go-wrong-for-the-cubs">Sports News</a>
+                            <a href="http://espn.go.com/mlb/story/_/page/SContheRoad_addisonrussell/addison-russell-knows-right-place-chicago-cubs">Sports News</a>
+             </div>
+                              <div>
+                        <p>Current Sports/Injury News</p>
+                  <form action="#" method="#">
+                     <textarea name="comentario" max length="1000"></textarea>
+                      <input type="submit" name="enviar" value="enviar">
+                  </form>
+
+
+                         </div>
+            </div>
+        </div>
+
+<!--client Container-->
+                <div class="container">
+                    <div class="work">
+                       <div id="mypanel2" class="work">
+                     <h6 id="work" class="sectionTitle">Clients and Schedule</h6>
+
+                    <img src="img/startuplogo.png">
+
+                    <p class="quote"> Como dijo Toynbee, <q cite="http://www.brainyquote.com/quotes/topics/topic_work.html">The supreme accomplishment is to blur the line between work and play.</q>
+                        Arnold J. Toynbee
+                    </p>
+                    <div class="workText">
+                         <p>I came to Barcelona for more of a work life balance, to escape from corporate America, but I think I work more here than in America.</p>
+                        <p>You can check my availability on the schedule link.</p>
+                    <div class="businessList">
+                         <h7 class="workGroups">Business Clients</h7>
+                    <ul>
+                        <li>La Caixa</li>
+                        <li>Altran</li>
+                        <li>Everis</li>
+                        <li>IBM</li>
+                        <li>Vall d' Hebron</li>
+                        <li>La planeta</li>
+                        <li>Hospital Clinic</li>
+                        <li>Sant Pau Hospital</li>
+                        <li>KLB Group</li>
+                        <li>Crea</li>
+                        <li>PlayMedia</li>
+                        <li>Le Creuset</li>
+                        <li>ITNOW</li>
+                        <li>FCB</li>
+                        <li>IT NOW</li>
+                        <li>Deu Dits</li>
+                        <li>Barcentro</li>
+                    </ul>
+                    </div>
+                    <div class="privateList">
+                         <h8 class="workGroups">Private Students</h8>
+                    <ul>
+                        <li>Raisa</li>
+                        <li>Pedro</li>
+                        <li>Pati</li>
+                        <li>Alex</li>
+                        <li>Ana</li>
+                        <li>Sara</li>
+                        <li>Dani</li>
+                        <li>Analia</li>
+                        <li>Josep Maria</li>
+                        <li>Nuria</li>
+                        <li>Sergi</li>
+                        <li>Gaba</li>
+                        <li>Ingnaci(FCB)</li>
+                        <li>Xavi(FCB)</li>
+                    </ul>
+
+                    </div>
+                    </div>
+
+                    <div class="workSchedule">
+                         <a href="workSchedule.html">My schedule changes constantly, click here to see my schedule and availability</a>
+                    </div>
+             </div>
+          </div>
+                    </div>
+
+<!--Travel Container-->
+      <div id="container">
+                        <div id="mypanel3" class="travel" >
+                            <div class="travel">
+                                <h9 id="travelItem" class="travel"></h9>
+                                <div class="sectionTitle">Travel
+                                </div>
+
+                                <div class="travelText">
+                                    <p>Apart from sports I love travelling and live music.  You can access Music from the Music link.  I have been lucky enough to travel to  almost every state in America, Canada, and Mexico.  Let's look at other places I have explored.  When travelling I love exploring new cultures and cities but I prefer to wander off the beaten track to see what I can see.  I prefer quiet beach or mountain time more than the city.</p>
+                                </div>
+                                <div class="places">
+                                    <ul>
+                                        <li>49 states in America</li>
+                                        <li>Spain</li>
+                                        <li>France</li>
+                                        <li>Portugal</li>
+                                        <li>Germany</li>
+                                        <li>Austria</li>
+                                        <li>The Netherlands</li>
+                                        <li>North Africa</li>
+                                        <li>Moscow</li>
+                                        <li>Bahamas</li>
+                                        <li>Puerto Rico</li>
+                                        <li>Barbados</li>
+                                        <li>Greece</li>
+                                        <li>Mexico</li>
+                                        <li>Costa Rica</li>
+                                        <li>Panama</li>
+                                        <li>Taiwan</li>
+                                        <li>Peru</li>
+                                        <li>Chile</li>
+                                    </ul>
+                                </div>
+                                <div class="travelText">
+                                    <p>You can access all travel photos from the link above or the photos link on the top of the page</p>
+                                </div>
+                            </div>
+</div>
+      </div>
+<!-- Music Container-->
+                            <div class="container">
+                                <div id="mypanel4" class="allMusic" >
+                                    <h8 id="music" class="sectionMusic">Music</h8>
+                                    <div class="sectionMusic">
+                                        <div class="concertPhotos">
+                                            <figure>
+                                                <div>
+                                                    <img src="img/wspshow.jpg" height="200" width="350">
+                                                    <figcaption>Live WSP Show</figcaption>
+                                                </div>
+                                                <div>
+                                                    <img src="img/trey.jpg" height="200" width="350">
+                                                    <figcaption>TREY</figcaption>
+                                                </div>
+                                                <div>
+                                                    <img src="img/jb.jpg" height="200" width="350">
+                                                    <figcaption>JB</figcaption>
+                                                </div>
+                                                <div>
+                                                    <img src="img/mikey.jpg" height="200" width="350">
+                                                    <figcaption>Mikey</figcaption>
+                                                </div>
+                                                <div>
+                                                    <img src="img/jerryphotoquote.jpg" height="200" width="350">
+                                                    <figcaption>JERRY</figcaption>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                                    <div class="musicNews">
+                                        <p>Links for music news</p>
+                                        <div class="musicLinks">
+                                            <a href="http://www.jambase.com">Jambase</a>
+                                            <a href="http://www.phantasytour.com">PhantasyTour</a>
+                                            <a href="http://www.jambands.com">Jambands</a>
+                                        </div>
+                                        <p>Links for each Jam Band</p>
+                                        <div class="bandLinks">
+                                            <a href="http://www.widespreadpanic.com/">WSP</a>
+                                            <a href="http://phish.com/">PHISH</a>
+                                            <a href="http://stringcheeseincident.com/">SCI</a>
+                                            <a href="http://www.dead.net/">GRATEFUL DEAD</a>
+                                        </div>
+                                            <p> What is the best concert venue in America?</p>
+
+                                            <form action="#" method="#">
+                                                <select name="bestconcertvenues">
+                                                    <option value="alpineValley">Alpine Valley</option>
+                                                    <option value="redRocks">Red Rocks</option>
+                                                    <option value="theFoxatlanta">The Fox ATL</option>
+                                                    <option value="brooklynBowl">Brooklyn Bowl</option>
+                                                    <option value="theOrangepeel">The Orange Peel</option>
+                                                    <option value="theGreektheater">The Greek Theater</option>
+                                                </select>
+                                            </form>
+
+                                            <div class="stream">Stream Live WSP
+                                                <figcaption><a href="http:www://panicstream.com">Panic Stream</a></figcaption>
+                                            </div>
+                                    </div>
+
+                                                <div class="athensGa">
+                                                    <p class="golden">WSP 25th Anniversary</p>
+                                                    <video controls autoplay loop poster="concertVideos">
+                                                        <source src="./videos/WSP_25YEARS_NIGHT1_SET1_Title_01_01.MP4">
+                                                    </video>
+                                                </div>
+                                </div>
+                                <footer>
+                                    <p class="italic">Created By JWT</p>
+                                    <p>jthompson.benchcraft@gmail.com</p>
+                                    <address>Gran Via de los Corts Catalanes 682</address>
+                                    <p>sera el dia<time datetime="2016-16-04 09:00:00"> el 16 del Abril</time></p>
+                                </footer>
+                                <script src="js/jquery-1.12.0.min.js"></script>
+
+
+
+           </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="mypanel5" class="panel panel-default" style="display:none">
+        <div class="panel-heading">
+            dsadasdaas
+          </div>
+        <div class="panel-body">
+asdasdasds
+        </div>
+
+    </div>
+<script>
+    $(document).ready(function(){
+           $("#newsBtn").click(function(){
+               $("#newsContainer").show();
+               $("#sportsContainer").hide();
+           });
+        $("#sportsBtn").click(function(){
+            $("#newsContainer").hide();
+            $("#sportsContainer").show();
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
